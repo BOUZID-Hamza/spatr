@@ -1,0 +1,13 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+tqdm
+jupyter
+ipython
+tensorboard
+tensorboardX
+trimesh
+pandas
+einops
+mlxtend
