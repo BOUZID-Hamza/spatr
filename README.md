@@ -21,6 +21,8 @@ Recent advancements in technology have expanded the possibilities of human actio
 
 ## Spiral Auto-Encoder
 
+**NOTE: If you are using the Babel, Movi, or BMLrub datasets, you can disregard the Spiral Auto-Encoder steps outlined below. The extracted embeddings for these datasets are readily accessible at [SOON].**
+
 To extract spatial embeddings from mesh data, we utilize the "Neural 3D Morphable Models: Spiral Convolutional Networks for 3D Shape Representation Learning and Generation." For a deeper understanding, please refer to the original work on GitHub at: [Neural3DMM](https://github.com/gbouritsas/Neural3DMM).
 
 Our research relies on the use of the SMPL template and mesh decimation patterns during the training process. You can access the template and decimation patterns conveniently within the "NeuralSMPL/dataset/template" directory. If you wish to make adjustments to the template, mesh decimation, or filters sizes and number, you can find the relevant information here: [Neural3DMM](https://github.com/gbouritsas/Neural3DMM#data-organization).
@@ -67,7 +69,6 @@ to extract embedding from the whole dataset, set
 $ args['mode'] = 'generate'
 ```
 
-**NOTE: If you are using the Babel, Movi, or BMLrub datasets, you can disregard the steps outlined above. The extracted embeddings for these datasets are readily accessible at [SOON].**
 
 ## Motion Transformer
 
