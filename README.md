@@ -21,7 +21,7 @@ Recent advancements in technology have expanded the possibilities of human actio
 
 ## Spiral Auto-Encoder
 
-**NOTE: If you are using the Babel, Movi, or BMLrub datasets, you can disregard the Spiral Auto-Encoder steps outlined below. The extracted embeddings for these datasets are readily accessible at [SOON].**
+**NOTE: If you are using the Babel, Movi, or BMLrub datasets, you can disregard the Spiral Auto-Encoder steps outlined below. The extracted embeddings for these datasets are readily accessible [here](https://drive.google.com/drive/folders/1IandXYc7J0U0GnW8r48gnasPumt3P4x4?usp=sharing).**
 
 To extract spatial embeddings from mesh data, we utilize the "Neural 3D Morphable Models: Spiral Convolutional Networks for 3D Shape Representation Learning and Generation." For a deeper understanding, please refer to the original work on GitHub at: [Neural3DMM](https://github.com/gbouritsas/Neural3DMM).
 
