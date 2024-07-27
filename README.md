@@ -44,10 +44,10 @@ To use a PyTorch dataloader for training and testing, we split the data into sep
 ```
 $ python data_generation.py --root_dir=/path/to/data_root_dir --dataset=DFAUST --num_valid=100
 ```
-Then, you can use Jupyter Notebook by running:
+Then, you can use Jupyter Notebook by running train.ipynb in the "NeuralSMPL" folder:
 
 ```
-$ jupyter notebook neural3dmm.ipynb
+$ jupyter notebook train.ipynb
 ```
 
 And set
